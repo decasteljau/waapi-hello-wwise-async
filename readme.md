@@ -5,7 +5,8 @@ This samples demonstrates how to connect to Wwise with the Wwise Authoring API (
 
 ## Requirements
 
-1. Node.js (https://nodejs.org)
+1. [Node.js](https://nodejs.org)
+1. [git](https://git-scm.com/downloads)
 
 ## Setup
 
@@ -20,6 +21,14 @@ Build Typescript:
     tsc -p .
 
 ## Execution
+
+First, ensure WAAPI is enabled in Wwise:
+ - menu **Project/Preferences**
+ - Check **Enable Wwise Authoring API**
+ - Click **OK**
+ - Restart Wwise
+
+Then, open a Wwise Project.
 
 Run the following commands from the directory containing index.js, or use the built-in debugger in Visual Studio Code.
 

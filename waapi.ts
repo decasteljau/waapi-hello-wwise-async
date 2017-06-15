@@ -71,7 +71,7 @@ export const ak = {
                 /** Sent when an attenuation curve's link/unlink is changed. */
                 attenuationCurveLinkChanged: "ak.wwise.core.object.attenuationCurveLinkChanged", 
                 /** Sent following an object's deletion. */
-                postDelete: "ak.wwise.core.object.postDelete", 
+                postDeleted: "ak.wwise.core.object.postDeleted", 
                 /** Sent when an object is added as a child to another object. */
                 childAdded: "ak.wwise.core.object.childAdded", 
                 /** Sent when the watched property of an object changes. */
@@ -87,7 +87,7 @@ export const ak = {
                 /** Sent when the object's notes are changed. */
                 notesChanged: "ak.wwise.core.object.notesChanged", 
                 /** Sent prior to an object's deletion. */
-                preDelete: "ak.wwise.core.object.preDelete", 
+                preDeleted: "ak.wwise.core.object.preDeleted", 
                 /** Renames an object. */
                 setName: "ak.wwise.core.object.setName", 
                 /** Sets the object's notes. */
