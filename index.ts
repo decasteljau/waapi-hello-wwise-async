@@ -13,7 +13,7 @@ async function main() {
         // Ensure you enabled WAAPI in Wwise's User Preferences
         var connection = await wamp.connect('ws://localhost:8080/waapi');
 
-        // Obtain information about Wwie
+        // Obtain information about Wwise
         var wwiseInfo = await connection.call(ak.wwise.core.getInfo, {});
         console.log(`Hello ${wwiseInfo.displayName} ${wwiseInfo.version.displayName}!`);
 
