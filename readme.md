@@ -33,3 +33,7 @@ Then, open a Wwise Project.
 Run the following commands from the directory containing index.js, or use the built-in debugger in Visual Studio Code.
 
     node index.js
+
+## The code
+
+The code is located in [index.ts](index.ts). Have fun!
