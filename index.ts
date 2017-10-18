@@ -1,5 +1,5 @@
-import * as wamp from './wamp-promise';
-import { ak } from './waapi';
+import * as waapi from 'waapi-client-ts';
+import { ak } from 'waapi';
 
 function onNameChanged(args?: any[], kwargs?: any) {
     // Just received a notification about the name changed
@@ -11,7 +11,7 @@ async function main() {
     try {
         // Connect to WAAPI
         // Ensure you enabled WAAPI in Wwise's User Preferences
-        var connection = await wamp.connect('ws://localhost:8080/waapi');
+        var connection = await waapi.connect('ws://localhost:8080/waapi');
 
         // Obtain information about Wwise
         var wwiseInfo = await connection.call(ak.wwise.core.getInfo, {});
