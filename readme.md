@@ -3,7 +3,7 @@
 
 This samples demonstrates how to connect to Wwise with the Wwise Authoring API (WAAPI) using Typescript, async/await and Node.js. Clone this project to quickly bootstrap your WAAPI projects.
 
-This project is based on [waapi-clien-ts](https://github.com/audiokinetic/waapi-client-ts).
+This project is based on [waapi-client-ts](https://github.com/audiokinetic/waapi-client-ts).
 
 ## Requirements
 
