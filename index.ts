@@ -1,4 +1,4 @@
-import * as waapi from 'waapi-client-ts';
+import * as waapi from 'waapi-client';
 import { ak } from 'waapi';
 
 function onNameChanged(args?: any[], kwargs?: any) {

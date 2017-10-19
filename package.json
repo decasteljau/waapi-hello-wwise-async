@@ -18,7 +18,7 @@
     "@types/node": "^7.0.5",
     "autobahn": "^0.11.2",
     "waapi": "^2017.1.2",
-    "waapi-client-ts": "^2017.1.5"
+    "waapi-client": "^2017.1.0"
   },
   "devDependencies": {
     "typescript": "^2.5.3"
