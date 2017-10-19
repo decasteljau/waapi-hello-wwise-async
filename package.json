@@ -1,5 +1,5 @@
 {
-  "name": "async-node-wamp",
+  "name": "waapi-hello-wwise-async",
   "version": "1.0.0",
   "description": "Wwise Authoring API with async wamp",
   "main": "index.js",
