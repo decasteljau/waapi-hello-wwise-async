@@ -20,8 +20,7 @@ Install dependencies:
 
 Build Typescript:
 
-    tsc -p .
-
+    npm run build
 ## Execution
 
 First, ensure WAAPI is enabled in Wwise:
